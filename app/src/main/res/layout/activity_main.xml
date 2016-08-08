@@ -8,14 +8,17 @@
 
 <Button
     android:id="@+id/request"
-    android:text="request"
+    android:text="查看天气温度"
     android:layout_width="match_parent"
     android:layout_height="60dp"/>
 
-  <TextView
-      android:id="@+id/tv"
-      android:gravity="center"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"/>
+ <com.jn.chart.charts.LineChart
+     android:id="@+id/weatherChart"
+     android:layout_width="match_parent"
+     android:layout_height="300dp">
+
+ </com.jn.chart.charts.LineChart>
+
+
 
 </LinearLayout>
